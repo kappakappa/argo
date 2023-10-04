@@ -1,3 +1,4 @@
+apiVersion: apps/v1
 kind: ConfigMap
 metadata:
   name: index-html-configmap
@@ -9,4 +10,4 @@ data:
   </br>
   </html
   <h1>This web page is housed on a Pod running Nginx</h1>
-  </html> 
+  </html>
