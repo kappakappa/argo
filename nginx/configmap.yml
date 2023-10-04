@@ -5,8 +5,11 @@ metadata:
   namespace: app
 data:
   index.html: |
-  <html>
-    <h1>Yayy! Looks like you found my Kube webpage!</h1>
-  </br>
-  <h1>This web page is housed on a Pod running Nginx</h1>
-  </html>
+    <html>
+      <head>
+        <title>Nginx Project</title>
+      </head>
+      <body>
+        <h1>This is Deployment One</h1>
+      </body>
+    </html>
