@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html-configmap
+  namespace: app2
+data:
+  index.html: |
+    <html>
+      <head>
+        <title>Nginx Project</title>
+      </head>
+      <body>
+        <h1>This is Deployment Two</h1>
+      </body>
+    </html>
