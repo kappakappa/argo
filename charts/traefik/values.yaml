@@ -1,0 +1,3 @@
+ports:
+  web:
+    exposedPort: 8090
