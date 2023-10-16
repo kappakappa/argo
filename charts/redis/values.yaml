@@ -1,0 +1,3 @@
+service:
+  ports:
+    redis: 8379
