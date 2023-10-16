@@ -1,4 +1,4 @@
 master:
   service:
     ports:
-      redis: 8379
+      redis: 6379
