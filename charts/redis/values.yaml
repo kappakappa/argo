@@ -1,3 +1,4 @@
-service:
-  ports:
-    redis: 8379
+master:
+  service:
+    ports:
+      redis: 8379
