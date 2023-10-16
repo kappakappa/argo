@@ -1,3 +1,6 @@
 ports:
   web:
     exposedPort: 8090
+  websecure:
+    exposedPort: 7443
+  
